@@ -99,7 +99,13 @@ h2 {
 
 /* Footer */
 footer {
-  background: url("footer.jpg") center / cover no-repeat;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("footer.jpg") center / cover no-repeat;
+
   color: #ffffff;
   text-align: center;
   padding: 60px 20px;
