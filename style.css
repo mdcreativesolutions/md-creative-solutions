@@ -99,15 +99,24 @@ h2 {
 
 /* Footer */
 footer {
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url("footer.jpg") center / cover no-repeat;
-
+  position: relative;
+  background: url("footer.jpg") center / cover no-repeat !important;
   color: #ffffff;
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
   font-size: 14px;
+}
+
+/* Optional overlay for readability */
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+footer p {
+  position: relative;
+  z-index: 1;
 }
