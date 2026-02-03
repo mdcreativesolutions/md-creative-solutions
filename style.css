@@ -8,17 +8,10 @@ body {
 
 /* Hero section – YELLOW CONFIRMED */
 .hero {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(255, 191, 0, 0.88),
-      rgba(245, 168, 0, 0.88)
-    ),
-    url("banner.jpg") center / cover no-repeat;
-  
-  color: #1f1f1f;
+  background: url("banner.jpg") center / cover no-repeat;
+  color: #ffffff;
   text-align: center;
-  padding: 120px 20px;
+  padding: 160px 20px 220px; /* extra space at bottom */
 }
 
 
