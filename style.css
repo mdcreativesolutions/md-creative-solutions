@@ -99,9 +99,9 @@ h2 {
 
 /* Footer */
 footer {
-  background: #000;
-  color: #FFBF00;
+  background: url("footer.jpg") center / cover no-repeat;
+  color: #ffffff;
   text-align: center;
-  padding: 15px;
+  padding: 60px 20px;
   font-size: 14px;
 }
