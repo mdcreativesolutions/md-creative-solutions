@@ -6,12 +6,12 @@ body {
   color: #2b2b2b;
 }
 
-/* Hero section */
+/* Hero section – YELLOW CONFIRMED */
 .hero {
-  background: linear-gradient(135deg, #FFBF00, #f5a800);
+  background: linear-gradient(135deg, #FFBF00, #f5a800) !important;
   color: #1f1f1f;
   text-align: center;
-  padding: 90px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -67,7 +67,6 @@ h2 {
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   border-top: 4px solid #FFBF00;
-  font-weight: 500;
 }
 
 /* Why section */
@@ -94,7 +93,6 @@ h2 {
 }
 
 .contact p {
-  margin: 10px 0;
   color: #FFBF00;
 }
 
